@@ -1,0 +1,5 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+- being able to collaborate with others on the same code base 
+- being able to use the remote for continuous integration 
+- a safe guard against potentially  losing your work locally if your computer goes haywire.
