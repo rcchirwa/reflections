@@ -1,0 +1,6 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a repository the git command creates a .git file that stores repository otehrwise git doe snot know what to do. Beacuse we would like to initailize a repository.
+
+
+
