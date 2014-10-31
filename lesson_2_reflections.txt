@@ -1,10 +1,46 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-When you initialize a repository the git command creates a .git file that stores repository otehrwise git doe snot know what to do. Beacuse we would like to initailize a repository.
+- When you initialize a repository the git command creates a .git file that stores repository otehrwise git doe snot know what to do. Beacuse we would like to initailize a repository.
+
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-It is different because it acts as the intemediary between bith of those areas. Staging allows you to control what you would liek to add to a commit. 
+- It is different because it acts as the intemediary between bith of those areas. Staging allows you to control what you would liek to add to a commit. 
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+- You can move topics associated with the logical change into the staging area to keep themes on topic.
+
+- git add : add files to staging
+- git diff: compare staging and working directory
+- git diff --staged :compare staging and commit
+- git diff commit1 commit2: compare two commits
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+branches are cool with experimental features 
+
+- They are also great for greating a different streams of the project that you can work on. 
+It allows one to work on two version of the project simultaneously 
+
+
+How do the diagrams help you visualize the branch structure?
+
+- They show the ancester nodes of the various commits. we are able to track the lineage of the of a chain off commits.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+We get a branch that is one merge into the other i.e. unified especially when we have a change that we wnat to merge back into master. 
+
+- we represent it to show master is the basis of the new version of master i.e. the other branch was merged into. but the commits are organized by time. 
+
+- we can use the following to show the difference bettween a commit in the merge and it's parent
+
+- git show commmit_id
 
 
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+- The pros are automatic is if there are no conflicts. manual merging give one control and notifies them of conflicts. Auto merging would have to solve conflict through AI.
