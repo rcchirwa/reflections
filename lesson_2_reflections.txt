@@ -34,9 +34,7 @@ What is the result of merging two branches together? Why do we represent it in t
 We get a branch that is one merge into the other i.e. unified especially when we have a change that we wnat to merge back into master. 
 
 - we represent it to show master is the basis of the new version of master i.e. the other branch was merged into. but the commits are organized by time. 
-
 - we can use the following to show the difference bettween a commit in the merge and it's parent
-
 - git show commmit_id
 
 

@@ -1,28 +1,29 @@
 How did viewing a diff between two versions of a file help you see the bug that was introduced?
 
-I was able to visual see something that was similar to line by line. 
+- I was able to visual see something that was similar to line by line. 
+
 
 How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
 
-Comparisions against different files or look at previous revisions if nessacery and identify them . 
+- Comparisions against different files or look at previous revisions if nessacery and identify them . 
+
 
 What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
 
-When you manually commit you have more control over the size of the commit. Meaning you are not just haphazardly using space. 
+- When you manually commit you have more control over the size of the commit. Meaning you are not just haphazardly using space. 
+- The con is that you could lose data befor you save it if done manually. You need to be disicplined enough about saving to have manual commits work effectively. 
 
-The con is that you could lose data befor you save it if done manually. You need to be disicplined enough about saving to have manual commits work effectively. 
 
 Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
 
-Git realizes that the files are inter-related and all associated with one commit. Others do not see files as interelated in term of content maybe just thematically clustering them. 
+- Git realizes that the files are inter-related and all associated with one commit. Others do not see files as interelated in term of content maybe just thematically clustering them. 
 
 
 How might using version control make you more confident to make changes that could break something?
 
-One could checkout various versions of the commts to see where a bug was introduced. 
+- One could checkout various versions of the commts to see where a bug was introduced. 
 
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-
-I would liek to use Git as a version control system. 
+- I would liek to use Git as a version control system. 
